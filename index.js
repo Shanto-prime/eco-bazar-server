@@ -6,7 +6,7 @@ app.get('/',(req,res)=>{
     res.send("hello dev")
 })
 app.listen(port,()=>{
-    console.log(`server running on port:${port}`);
+    console.log(`server running on custom port:${port}`);
 })
 
 
